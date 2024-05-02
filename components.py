@@ -72,16 +72,6 @@ class Valida:
                 print(purple_color + "El campo solo puede contener números.")
                 time.sleep(1)
                 print(" " * 40)
-    def validar_dni(dni):
-        while True:
-         if dni.isdigit() and len(dni) == 10:
-            return dni
-         else:
-            print(purple_color + "El DNI ingresado no es válido.")
-            time.sleep(1)
-            dni= input("Ingrese nuevamente el dato: ")
-
-
     def validar_numeros_decimales(frase):
         while True:
             print(blue_color + f"{frase}")
@@ -107,6 +97,32 @@ class Valida:
                 gotoxy(col, fil)
                 print(" "*20)
         return valor
+    
+    def validar_dni(dni):
+        while True:
+            if len(dni) < 10:
+                print(purple_color + "El DNI debe tener al menos 10 caracteres.")
+                dni = input("Ingrese el DNI del cliente: ")
+            else:
+                if dni.isdigit():
+                    coeficientes = [2, 1, 2, 1, 2, 1, 2, 1, 2]
+                    suma = 0
+                    for i in range(9):
+                        digito = int(dni[i]) * coeficientes[i]
+                        if digito > 9:
+                            digito -= 9
+                        suma += digito
+                    total = suma % 10
+                    if total != 0:
+                        total = 10 - total
+                    else:
+                        total = 0  # Valor predeterminado si total == 0
+                    if total == int(dni[9]):
+                        return dni
+                print(purple_color + "El formato del DNI es incorrecto.")
+                dni = input("Ingrese el DNI del cliente: ")
+
+        
 class otra:
     pass    
 

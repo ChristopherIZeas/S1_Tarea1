@@ -205,7 +205,7 @@ class CrudProducts(ICrud):
         gotoxy(2, 4)
         print(green_color + "=" * 90 + reset_color)
         gotoxy(2, 5)
-        id_producto = int(input("Ingrese el ID del producto que desea actualizar: "))
+        id_producto =int(input("Ingrese el ID del producto que desea actualizar: "))
         json_file = JsonFile(path + '/archivos/products.json')
         products = json_file.read()
 

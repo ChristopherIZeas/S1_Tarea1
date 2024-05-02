@@ -1,1 +1,49 @@
-[{"factura": 5, "Fecha": "2024-04-28", "cliente": "Christopher Zeas", "subtotal": 0.5, "descuento": 0.05, "iva": 0.05, "total": 0.5, "detalle": [{"poducto": "Agua", "precio": 0.25, "cantidad": 2}]}, {"factura": 6, "Fecha": "2024-04-28", "cliente": "Christopher Zeas", "subtotal": 8.5, "descuento": 0.8500000000000001, "iva": 0.92, "total": 8.57, "detalle": [{"poducto": "Aceite", "precio": 2.0, "cantidad": 4}, {"poducto": "Chocolate", "precio": 2.0, "cantidad": 5}, {"poducto": "Carne", "precio": 3.0, "cantidad": 1}, {"poducto": "Carne", "precio": 3.0, "cantidad": 1}]}]
+[
+    {
+        "factura": 5,
+        "Fecha": "2024-04-28",
+        "cliente": "Christopher Zeas",
+        "subtotal": 0.5,
+        "descuento": 0.05,
+        "iva": 0.05,
+        "total": 0.5,
+        "detalle": [
+            {
+                "poducto": "Agua",
+                "precio": 0.25,
+                "cantidad": 2
+            }
+        ]
+    },
+    {
+        "factura": 6,
+        "Fecha": "2024-04-28",
+        "cliente": "Christopher Zeas",
+        "subtotal": 8.5,
+        "descuento": 0.8500000000000001,
+        "iva": 0.92,
+        "total": 8.57,
+        "detalle": [
+            {
+                "poducto": "Aceite",
+                "precio": 2.0,
+                "cantidad": 100
+            },
+            {
+                "poducto": "Carne",
+                "precio": 3.0,
+                "cantidad": 1
+            },
+            {
+                "poducto": "Carne",
+                "precio": 3.0,
+                "cantidad": 1
+            },
+            {
+                "poducto": "Agua",
+                "precio": 0.25,
+                "cantidad": 5
+            }
+        ]
+    }
+]

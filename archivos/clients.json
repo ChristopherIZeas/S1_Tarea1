@@ -1,15 +1,1 @@
-[
-
-    {
-        "dni": "0987543358",
-        "nombre": "Christopher",
-        "apellido": "Zeas",
-        "valor": 0.1
-    },
-    {
-        "dni": "0964823154",
-        "nombre": "Eduardo",
-        "apellido": "Rodrigez",
-        "valor": 10000
-    }
-]
+[{"dni": "0987543358", "nombre": "Christopher", "apellido": "Zeas", "valor": 0.1}, {"dni": "0964823154", "nombre": "Eduardo", "apellido": "Rodrigez", "valor": 10000}, {"dni": "2100944715", "nombre": "Jordy", "apellido": "Pincay", "valor": 0.1}]
